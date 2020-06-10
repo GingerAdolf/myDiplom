@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Управление устройствами"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="370dp"
+            android:layout_height="95dp"
+            android:layout_weight="1"
+            android:text="Устройство управления светом id = 1"
+            android:textAlignment="center"
+            android:textOff="выключено"
+            android:textOn="включено"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</LinearLayout>

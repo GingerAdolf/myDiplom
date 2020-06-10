@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0D3863</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <!--Цветовая схема текстовых полей-->
+    <color name="colorTextSplashScreen">#000000</color>
+    <color name="colorTextLogin">#000000</color>
+    <color name="colorTextEdit">#000000</color>
+    <color name="colorTextHint">#066EC0</color>
+    <color name="colorForEditFiledText">#AEC0CF</color>
+    <color name="colorTextActionBar">#066EC0</color>
+    <!--Цветовая схема задних фонов элементов-->
+    <color name="colorBackgroundSplashScreen">#EDF6FF</color>
+    <color name="colorBackgroundLogin">#EDF6FF</color>
+    <color name="colorBackgroundNavigationPanel">#EDF6FF</color>
+    <color name="colorBackgroundActionBar">#EDF6FF</color>
+
+    <!--Цветовая схема элементов кнопки-->
+    <color name="colorForButtonBackground">#B6CDEE</color>
+    <color name="colorForButtonStroke">#AEC0CF</color>
+
+    <!--Цветовая схема полей ввода-->
+    <color name="colorForEditFiledBackground">#D5D7F7</color>
+    <color name="colorForEditFiledBackgroundRegistration">#CEF1FA</color>
+
+    <color name="colorBackgroundTint">#D81B60</color>
+
+
+</resources>

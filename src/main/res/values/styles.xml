@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="actionBarStyle">@style/Widget.AppCompat.ActionBar</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.AppTheme.ActionBar</item>
+    </style>
+    <style name="Widget.AppCompat.ActionBar" parent="Widget.AppCompat.ActionBar.Solid">
+        <item name="background">@color/colorBackgroundActionBar</item>
+    </style>
+    <style name="ThemeOverlay.AppTheme.ActionBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- title text color -->
+        <item name="android:textColorPrimary">@color/colorTextActionBar</item>
+    </style>
+
+
+
+    <style name="SplashScreenTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:textColor">@color/colorTextSplashScreen</item>
+        <item name="android:background">@color/colorBackgroundSplashScreen</item>
+    </style>
+
+    <style name="LoginTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:textColor">@color/colorTextLogin</item>
+        <item name="android:background">@color/colorBackgroundLogin</item>
+        <item name="android:textColorHint">@color/colorTextHint</item>
+        <item name="android:editTextColor">@color/colorTextLogin</item>
+    </style>
+
+    <style name="RegisterThem" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:textColor">@color/colorTextLogin</item>
+        <item name="android:background">@color/colorBackgroundLogin</item>
+        <item name="android:textColorHint">@color/colorTextHint</item>
+        <item name="android:editTextColor">@color/colorTextLogin</item>
+    </style>
+
+
+</resources>
